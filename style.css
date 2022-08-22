@@ -1,0 +1,541 @@
+*{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* Header :D*/
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3.125em;
+    padding-left: 4.375em;
+}
+nav {
+    width: 30%;
+}
+.menuHamburguesa {
+    display: none;
+}
+nav ul{
+    list-style: none;
+    color: #242E52;
+    display: flex;
+    justify-content: space-between;
+}
+.getStartedButton {
+    background-color: #F3603B;
+    color: white;
+    font-size: 0.8em;
+    border: solid #F3603B;
+    border-radius: 50px;
+    width: 9em;
+    height: 3em;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+/* Principal Container */
+body{
+    background-image: url(./ImagenesProyecto/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: 65em -13em ;
+}
+h1 {
+    font-size: 2.81em;
+    font-style: bold;
+    color:#232C50;
+}
+.principalContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.children1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 40%;
+    padding: 5.624em;
+}
+.principalContainer p {
+    font-style: medium;
+    color:#B3B2B7;
+    font-size: 1em;
+    line-height: 150%;
+}
+/* Segundo contenedor padre */
+.secondaryContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+/* What's different about Manage? */
+.children2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    padding:9.375em;
+}
+.children2 h2 {
+    color: #232851;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5em;
+    line-height: 100%;
+}
+
+.children2 p {
+    color: #B3B2B7;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 30px;
+    }
+/* Contenedor enumerado */
+.children3 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.875em;
+}
+.tittle-about{
+    text-align: start;
+    line-height: 1.875em;
+}
+.numbersAbout1::before {
+    content: url(./ImagenesProyecto/Button1.svg);
+    margin-left: -5.625em;
+    padding-right: 1.325em;
+    position: relative;
+    top: 1.25em;
+}
+.numbersAbout2::before {
+    content: url(./ImagenesProyecto/Button2.svg);
+    margin-left: -5.625em;
+    padding-right: 1.325em;
+    position: relative;
+    top: 1.25em;
+}
+.numbersAbout3::before {
+    content: url(./ImagenesProyecto/Button3.svg);
+    margin-left: -5.625em;
+    padding-right: 1.325em;
+    position: relative;
+    top: 1.25em;
+}
+.children3 p {
+    line-height: 30px;
+    color: #B3B2B7;
+}
+
+/* What they´ve said*/
+.texto {
+    text-align: center;
+    color: #242E53;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150%;
+    padding: 50px;
+    
+}
+/* Cards */
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+.cards p {
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 30px;
+}
+.cards h4 {
+    line-height: 40px;
+}
+/* Card de anisha */
+.cardAnisha {
+    text-align: center;
+    background-color: #FAFAFA;
+    padding:20px;
+    margin: 20px;
+}
+.cardAnisha .foto {
+    position: relative;
+    top: -70px;
+}
+.cardAnisha p {
+    
+}
+
+/* Card de Alibravo */
+.cardAli {
+    text-align: center;
+    background-color: #FAFAFA;
+    padding:20px;
+    margin: 20px;
+}
+
+.cardAli .foto {
+    position: relative;
+    top: -70px;
+}
+.cardRichard {
+    background-color:#FAFAFA;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.cardRichard .foto {
+    position: relative;
+    top: -70px;
+}
+
+.getStartedButton2{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+/* Simplify hoy your team
+words today. */
+.simplify {
+    background-color:  #F3613C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5em;
+    
+}
+.simplify p {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+.getStartedButtonSimplify{
+    background-color: #F3603B;
+    color: white;
+    font-size: 0.8em;
+    border: solid #F3603B;
+    border-radius: 50px;
+    width: 9em;
+    height: 3em;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+
+.menuFooter {
+    background-color: #1E1E26;
+    color: white;
+    padding: 2.5em;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    padding: 3.125em;
+    width: 100%;
+}
+.iconos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.iconos div {
+    display: flex;
+    justify-content: space-between;
+
+}
+.listas2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30em;
+}
+.listas2 ul{
+    list-style: none;
+}
+.listas2 li {
+    margin: 10px;
+}
+.formFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+}
+.form {
+    width: 250px;
+    height: 44px;
+    border-radius: 50px;
+    border: solid white;
+    text-align: center;
+}
+.goButton {
+    background-color: #F3603B;
+    color: white;
+    font-size: 13px;
+    border: solid #F3603B;
+    border-radius: 50px;
+    width: 80px;
+    height: 44px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+.formFooter p {
+    color: #8C8C94;
+    font-size: 12px;
+    font-weight: 500;
+}
+/* Uso de pseudoselectores en botones*/
+.getStartedButton:hover{
+    background-color: #F3603B;
+    opacity: 0.6;
+    cursor: pointer;
+    color:white;
+    border:white;
+    }
+.listas2 li:hover{
+cursor: pointer;
+color: #F3603B;
+}
+.goButton:hover {
+    background-color: white;
+    cursor: pointer;
+    color: #F3603B;
+    border:white;
+}
+.iconos i:hover {
+    color: #F3603B;
+    cursor: pointer;
+}
+.getStartedButtonSimplify:hover{
+    background-color: white;
+    cursor: pointer;
+    color: #F3603B;
+    border:white;
+
+}
+
+/* ==========ACA ES EL MOBILE ========== */
+
+@media (max-width: 376px) {
+
+    /* HEADER */
+header{
+display: flex;
+align-content: space-around;
+width: 24em;
+padding: 2em;
+padding-top: 2.5em;
+}
+.logo1{
+    padding-right: 6em;
+}
+nav{
+    display: none;
+}
+#navBarButton {
+    display: none;
+}
+.menuHamburguesa {
+    display: inline;
+    padding-right: 0.9em;
+}
+
+/* CONTENEDOR BRING EVERYONE AND GRAPHICS */
+.principalContainer{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 24em;
+}
+.imagenGrafico {
+width: 20em;
+height: 18em;
+}
+
+h1 {
+    font-size: 1.9em;
+    text-align: center;
+}
+.children1 {
+    padding: 0.5em;
+    height: 16em;
+    width: 20em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.principalContainer p {
+    font-size: 0.8em;
+    text-align: center;   
+}
+/* SEGUNDO CONTENEDOR WHATS DIFFERENT ABOUT Y LISTA */
+
+.secondaryContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 24em;
+    padding-top: 4em;
+}
+.children2 {
+    padding: 1em;
+    height: 12em;
+    width: 22em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+    .children2 h2 {
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.children2 p {
+    font-size: 0.8em;
+    text-align: center;
+    line-height: 1.6em;
+}
+/* CONTENEDOR DE LISTA */
+.children3{ 
+    padding: 0.98em;
+    width: 20em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tittle-about {
+    text-align: center;
+    font-size: 0.9em;
+}
+.children3 p {
+    line-height: 1.7em;
+    font-size: 0.8em;
+    color: #B3B2B7;
+    padding-top: 1em;
+    
+}
+.numbersAbout1::before {
+    width: 3em;
+    height: 2.5em;
+    margin-left: -3.5em;
+    padding-right: 0.1em;
+    position: relative;
+    top: 1.25em;
+}
+.numbersAbout2::before {
+    width: 3em;
+    height: 2.5em;
+    margin-left: -5.625em;
+    padding-right: 1.325em;
+    position: relative;
+    top: 1.25em;
+}
+.numbersAbout3::before {
+    width: 3em;
+    height: 2.5em;
+    margin-left: -3em;
+    padding-right: 0.1em;
+    position: relative;
+    top: 1.25em;
+}
+/* WHAT THEY'VE SAID */
+.texto {
+    font-size: 1.6em;
+    text-align: center;
+}
+.cardRichard {
+    display: none;
+}
+.cardAnisha {
+    display: none;
+}
+.cards p {
+    font-size: 0.8em;
+}
+.cards {
+    width: 23em;
+}
+
+/* Contendor final Simplify how */
+.simplify {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 24em;
+    padding: 2.5em;
+}
+.simplify p {
+    text-align: center;
+
+}
+.getStartedButtonSimplify {
+    background-color: white;
+    color:#F3603B;
+    border: white;
+}
+
+/* FOOTER */
+.menuFooter {
+    background-color: #1E1E26;
+    color: white;
+    padding: 1em;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center ;
+    width: 24em;
+}
+
+.iconos {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    height: 9em;
+}
+i {
+    font-size: 2em;
+    margin: 0.4em;
+}
+.logoBlanco {
+    height: 4em;
+    width: 9em;
+ 
+}
+.listas2 {
+ display: flex;
+ justify-content: space-around;
+ align-content: center;
+ width:23em;
+ padding: 1em;
+}
+
+.listas2 li  {
+    font-size: 0.8em;
+}
+.formFooter {
+    padding-left: -1em;
+}
+.formFooter p {
+    display: none;
+    
+}
+}
